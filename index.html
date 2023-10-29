@@ -29,16 +29,17 @@
             <h1>קפה טוב לבוקר טוב</h1>
             <p>לקבלת קופון חינם יש למלא את הפרטים</p>
             <div class="details">
-              <form action="koralstudent@gmail.com" method="post">
+
+              <form action="mailto:koralstudent@gmail.com" method="post" id="form-id">
                 <label for="firstName"
-                  >שם מלא<input type="text" id="Name" name="fullName" />
+                  >שם מלא<input type="text" id="Name" name="fullName" required />
                 </label>
 
                 <label for="email"
-                  >דוא"ל<input type="email" id="email" name="email"
+                  >דוא"ל<input type="email" id="email" name="email" required
                 /></label>
 
-                <button type="submit">שליחה</button>
+                <button type="submit" id="btn-id">שליחה</button>
               </form>
             </div>
           </div>
@@ -49,5 +50,7 @@
         </div>
       </div>
     </main>
+
+    <script src="/script.js"></script>
   </body>
 </html>
