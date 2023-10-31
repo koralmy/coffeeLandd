@@ -115,6 +115,11 @@ li {
   background-size: cover;
 }
 
+.proj-btns {
+  display: flex;
+  gap: 20px;
+}
+
 
 .icons {
   display: flex;
